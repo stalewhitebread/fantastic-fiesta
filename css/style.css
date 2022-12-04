@@ -1,8 +1,9 @@
+/*import font family*/
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 body {margin:0;padding:0;background-color:#0d0a47; color: white;}
 ul {margin: 0px; list-style:none;padding:0px; }
-
+/*style settings for basic page layout*/
 #title-box{
   color:black;
 }
@@ -17,7 +18,7 @@ ul {margin: 0px; list-style:none;padding:0px; }
 #month-box,#day-box,#year-box {
   margin: 2px; 
 }
-
+/*style settings for dummy log*/
 #console-box{
   position:static;
   top:48px; 
@@ -29,7 +30,7 @@ ul {margin: 0px; list-style:none;padding:0px; }
   font-family: monospace;
   padding:6px; 
 }
-
+/*style settings for steam data boxes - individually*/
 #steam-box {
  position:absolute; 
  top: 48px;
@@ -149,7 +150,7 @@ ul {margin: 0px; list-style:none;padding:0px; }
   text-align: center;
   margin: 10px;
 }
-
+/*style settings for selected data option(s)*/
 .selected {
   background-color: #727478;
   font-weight: bold; 
