@@ -17,19 +17,19 @@ ul {margin: 0px; list-style:none;padding:0px; }
 #month-box,#day-box,#year-box {
   margin: 2px; 
 }
-/*
+
 #console-box{
-  position:absolute;
+  position:static;
   top:48px; 
   right:48px;
-  height:400px;
+  height:200px;
   width:300px;
   background-color:#000;
-  color: #55ff55;
+  color: #dfe6f5;
   font-family: monospace;
   padding:6px; 
 }
-*/
+
 #steam-box {
  position:absolute; 
  top: 48px;
